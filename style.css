@@ -1,0 +1,66 @@
+@charset "UTF-8";
+/*ヘッダー上部　ロゴ、連絡先　部分*/
+.headerTop {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.headerTop-left {
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+.headerTop-right-top {
+  font-size: 10px;
+  margin-top: 15px;
+  text-align: center;
+}
+.headerTop-right .top-tel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 20px 0 10px;
+}
+.headerTop-right .top-tel-number {
+  font-size: 26px;
+  padding-left: 10px;
+}
+.headerTop-right-buttom {
+  font-size: 10px;
+  border: 1px solid #333;
+  width: 230px;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+}
+.headerTop-right-buttom span {
+  color: red;
+}
+
+/*styleScss*/
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  color: #333;
+  border-top: 8px solid #6cc6c4;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+#wrapper {
+  width: 920px;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=style.css.map */

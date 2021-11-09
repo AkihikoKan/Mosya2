@@ -1,15 +1,27 @@
+/*styleScss*/
+@use "styleScss/headerTop";
+
+
+
 *,
 *::before,
 *::after {
     box-sizing: border-box;
-}
+}    
 
 
 body {
     color: #333;
+    border-top: 8px solid #6cc6c4;
 }
 
 a {
     color: #333;
     text-decoration: none;
+}
+
+#wrapper{
+    width: 920px;
+    margin: 0 auto;
+
 }

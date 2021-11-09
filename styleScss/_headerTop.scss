@@ -1,0 +1,37 @@
+/*ヘッダー上部　ロゴ、連絡先　部分*/
+
+.headerTop{
+  display: flex;
+  justify-content: space-between;
+  &-left{
+      align-self: center;
+
+  }
+  &-right{
+      &-top{
+          font-size: 10px;
+          margin-top: 15px;
+          text-align: center;
+      }
+      .top-tel{
+          display: flex;
+          justify-content: center;
+          margin: 20px 0 10px;
+          &-number{
+              font-size: 26px;
+              padding-left: 10px;
+          }
+      }
+      &-buttom{
+          font-size: 10px;
+          border: 1px solid #333;
+          width: 230px;
+          padding: 10px 20px;
+          margin-bottom: 20px;
+          span{
+              color: red;
+          }
+      }
+
+  }
+}
