@@ -1,0 +1,23 @@
+/*アンダーメニューの部分*/
+
+.under-menu{
+  background-color: #6cc6c4;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  ul{
+      display: flex;
+      li{
+          font-size: 13px;
+          padding: 12px 0 10px 25px;
+          margin-left: 20px;
+          background: url(images/bgFooterIcon.png) left center no-repeat;
+      }
+      a{
+          color: #fff;
+
+      }
+      a:hover{
+          border-bottom: 1px solid #fff;
+      }
+  }
+}

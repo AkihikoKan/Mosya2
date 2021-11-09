@@ -184,6 +184,30 @@
   padding: 13px 0;
 }
 
+/*アンダーメニューの部分*/
+.under-menu {
+  background-color: #6cc6c4;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.under-menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.under-menu ul li {
+  font-size: 13px;
+  padding: 12px 0 10px 25px;
+  margin-left: 20px;
+  background: url(images/bgFooterIcon.png) left center no-repeat;
+}
+.under-menu ul a {
+  color: #fff;
+}
+.under-menu ul a:hover {
+  border-bottom: 1px solid #fff;
+}
+
 /*styleScss*/
 *,
 *::before,
