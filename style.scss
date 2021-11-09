@@ -1,7 +1,7 @@
 /*styleScss*/
 @use "styleScss/headerTop";
-
-
+@use "styleScss/headerMenu";
+@use "styleScss/main";
 
 *,
 *::before,
@@ -25,47 +25,4 @@ a {
     width: 920px;
     margin: 0 auto;
 
-}
-
-
-.headerMenu{
-    &-items{
-        border: 1px solid #6cc6c4;
-        border-radius: 5px;
-        background: -moz-linear-gradient(bottom,#6cc6c4,#9ce3e1);
-        background: -webkit-linear-gradient(bottom,#6cc6c4,#9ce3e1);
-        background: linear-gradient(to top,#6cc6c4,#9ce3e1);
-        ul{
-            display: flex;
-            justify-content: space-around;
-            li{
-                text-align: center;
-                padding: 20px 0;
-                width: 20%;
-                cursor: pointer;
-                h2{
-                    font-size: 14px;
-                    color: #fff;
-                }
-                p{
-                    font-size: 10px;
-                    margin-top: 5px;
-                    color: #fff;
-                    
-                }
-            }
-            li:nth-of-type(even){
-                border-left: 1px solid #6cc6c4;
-                border-right: 1px solid #6cc6c4;
-                border-image: linear-gradient(to bottom,#6cc6c4,#9ce3e1)1 100%;
-            }
-            li:hover{
-                background: -moz-linear-gradient(top,#6cc6c4,#9ce3e1);
-                background: -webkit-linear-gradient(top,#6cc6c4,#9ce3e1);
-                background: linear-gradient(to bottom,#6cc6c4,#9ce3e1);
-
-            }
-
-        }
-    }
 }

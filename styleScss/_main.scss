@@ -1,0 +1,110 @@
+/*メインの部分*/
+
+.main{
+  display: flex;
+  margin-top: 23px;
+  
+  &-left{
+      width: 30%;
+      &-top{
+          margin-bottom: 20px;
+          border: 1px solid #6cc6c4;
+          border-top-left-radius: 5px;
+          border-top-right-radius: 5px;
+          h3{
+              font-size: 16px;
+              padding: 15px;
+              font-weight: bold;
+              color: #fff;
+              background: -moz-linear-gradient(bottom,#6cc6c4,#9ce3e1);
+              background: -webkit-linear-gradient(bottom,#6cc6c4,#9ce3e1);
+              background: linear-gradient(to top,#6cc6c4,#9ce3e1);
+        
+          }
+          ul{
+              li{
+                  font-size: 14px;
+                  padding: 15px 25px;
+                  font-weight: bold;
+                  color: #595959;
+                  margin: 0 15px;
+                  border-bottom: 1px solid #6cc6c4;
+                  background: url(images/bgListIcon01.png) no-repeat 5px center;
+              }
+              li:nth-child(4){
+                  margin-bottom: 25px;
+              }
+          }
+          
+      }
+      &-bottom{
+          border: 1px solid #6cc6c4;
+          border-top-left-radius: 5px;
+          border-top-right-radius: 5px;
+          h3{
+              font-size: 16px;
+              padding: 15px;
+              font-weight: bold;
+              color: #fff;
+              background: -moz-linear-gradient(bottom,#6cc6c4,#9ce3e1);
+              background: -webkit-linear-gradient(bottom,#6cc6c4,#9ce3e1);
+              background: linear-gradient(to top,#6cc6c4,#9ce3e1);
+
+          }
+          ul{
+              li{
+                  font-size: 14px;
+                  padding: 15px 25px;
+                  font-weight: bold;
+                  color: #595959;
+                  margin: 0 15px;
+                  border-bottom: 1px solid #6cc6c4;
+                  background: url(images/bgListIcon01.png) no-repeat 5px center;
+              }
+              li:nth-child(4){
+                  margin-bottom: 25px;
+              }
+
+          }
+
+      }
+  }
+  &-right{
+      width: 70%;
+      margin-left: 20px;
+      &-top{
+          margin-bottom: 10px;
+      }
+      &-bottom{
+          background-color: #fff;
+          color: #515151;
+          margin-bottom: 25px;
+          h4{
+              padding: 36px 5px 20px;
+              margin: 0 23px;
+              border-bottom: 3px solid #6cc6c4;
+          }
+          &-info{
+              margin: 13px 30px 0;
+              padding-bottom: 50px;
+              .info1{
+                  display: flex;
+                  border-bottom: 1px solid #ccc;
+                  .day{
+                      font-size: 13px;
+                      width: 20%;
+                      line-height: 23px;
+                      padding-top: 15px;
+                  }
+                  .txt{
+                      font-size: 13px;
+                      width: 80%;
+                      margin-left: 32px;
+                      line-height: 20px;
+                      padding: 13px 0;
+                  }
+              }
+          }
+      }
+  }
+}
