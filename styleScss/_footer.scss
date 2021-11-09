@@ -1,0 +1,23 @@
+/**/
+
+
+footer{
+  .top{
+      color: #515151;
+      font-size: 13px;
+      border-bottom: 2px solid #6cc6c4;
+      padding: 20px 0;
+      text-align: right;
+      span{
+          font-size: 14px;
+          font-weight: bold;
+          padding-right: 10px;
+      }
+  }
+  .bottom{
+      color: #515151;
+      font-size: 12px;
+      text-align: center;
+      padding: 17px 0 20px;
+  }
+}
