@@ -1,0 +1,15 @@
+/*パンくずリストの部分*/
+
+.breadcrumb{
+  display: flex;
+  justify-content: flex-start;
+  margin: 20px 0 16px;
+  a{
+      font-size: 10px;
+      text-decoration: underline;
+      display: block;
+  }
+  p{
+      font-size: 10px;
+  }
+}
