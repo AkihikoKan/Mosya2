@@ -335,29 +335,102 @@ footer .bottom {
 }
 .main2-right-bottom h5 {
   font-size: 15px;
+  color: #6cc6c4;
+  margin: 50px 30px 0;
+  font-weight: bold;
 }
-.main2-right-bottom-info {
-  margin: 13px 30px 0;
-  padding-bottom: 50px;
+.main2-right-bottom p {
+  font-size: 13px;
+  line-height: 23px;
+  margin: 13px 30px 15px;
 }
-.main2-right-bottom-info .info {
+.main2-right-bottom .table {
+  margin: 20px 23px 27px;
+}
+.main2-right-bottom .table .list-day {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  border-bottom: 1px solid #ccc;
+  background-color: #d1d1d1;
 }
-.main2-right-bottom-info .info .day {
-  font-size: 13px;
-  width: 20%;
-  line-height: 23px;
-  padding-top: 15px;
+.main2-right-bottom .table .list-day ul {
+  border-top: 1px solid #515151;
+  border-left: 1px solid #515151;
+  border-right: 1px solid #515151;
 }
-.main2-right-bottom-info .info .txt {
+.main2-right-bottom .table .list-am {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.main2-right-bottom .table .list-am ul {
+  border: 1px solid #515151;
+}
+.main2-right-bottom .table .list-pm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.main2-right-bottom .table .list-pm ul {
+  border-bottom: 1px solid #515151;
+  border-left: 1px solid #515151;
+  border-right: 1px solid #515151;
+}
+.main2-right-bottom .table li {
+  height: 45px;
+  width: 14%;
   font-size: 13px;
-  width: 80%;
-  margin-left: 32px;
-  line-height: 20px;
-  padding: 13px 0;
+  color: #515151;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.main2-right-bottom .table li:nth-of-type(1) {
+  width: 16%;
+}
+.main2-right-bottom .table li:nth-of-type(4) {
+  width: 28%;
+}
+.main2-right-bottom .table .list-am li:nth-of-type(odd) {
+  border: 1px solid #515151;
+}
+.main2-right-bottom .table .list-am li:nth-of-type(even) {
+  border-top: 1px solid #515151;
+  border-bottom: 1px solid #515151;
+}
+.main2-right-bottom .table .list-am li:nth-of-type(6) {
+  border-right: 1px solid #515151;
+}
+.main2-right-bottom .table .list-day li:nth-of-type(odd) {
+  border-top: 1px solid #515151;
+  border-left: 1px solid #515151;
+  border-right: 1px solid #515151;
+}
+.main2-right-bottom .table .list-day li:nth-of-type(even) {
+  border-top: 1px solid #515151;
+}
+.main2-right-bottom .table .list-day li:nth-of-type(6) {
+  border-right: 1px solid #515151;
+}
+.main2-right-bottom .table .list-pm li:nth-of-type(odd) {
+  border-bottom: 1px solid #515151;
+  border-left: 1px solid #515151;
+  border-right: 1px solid #515151;
+}
+.main2-right-bottom .table .list-pm li:nth-of-type(even) {
+  border-bottom: 1px solid #515151;
+}
+.main2-right-bottom .table .list-pm li:nth-of-type(6) {
+  border-right: 1px solid #515151;
+}
+.main2-right-bottom p span {
+  font-weight: bold;
 }
 
 /*styleScss*/
