@@ -208,6 +208,158 @@
   border-bottom: 1px solid #fff;
 }
 
+/**/
+footer .top {
+  color: #515151;
+  font-size: 13px;
+  border-bottom: 2px solid #6cc6c4;
+  padding: 20px 0;
+  text-align: right;
+}
+footer .top span {
+  font-size: 14px;
+  font-weight: bold;
+  padding-right: 10px;
+}
+footer .bottom {
+  color: #515151;
+  font-size: 12px;
+  text-align: center;
+  padding: 17px 0 20px;
+}
+
+/*パンくずリストの部分*/
+.breadcrumb {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin: 20px 0 16px;
+}
+.breadcrumb a {
+  font-size: 10px;
+  text-decoration: underline;
+  display: block;
+}
+.breadcrumb p {
+  font-size: 10px;
+}
+
+/*メイン2の部分*/
+.main2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 25px;
+}
+.main2-left {
+  width: 30%;
+}
+.main2-left-top {
+  margin-bottom: 20px;
+  border: 1px solid #6cc6c4;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.main2-left-top h3 {
+  font-size: 16px;
+  padding: 15px;
+  font-weight: bold;
+  color: #fff;
+  background: -webkit-gradient(linear, left bottom, left top, from(#6cc6c4), to(#9ce3e1));
+  background: linear-gradient(to top, #6cc6c4, #9ce3e1);
+}
+.main2-left-top ul li {
+  font-size: 14px;
+  padding: 15px 25px;
+  font-weight: bold;
+  color: #595959;
+  margin: 0 15px;
+  border-bottom: 1px solid #6cc6c4;
+  background: url(images/bgListIcon01.png) no-repeat 5px center;
+}
+.main2-left-top ul li:nth-child(4) {
+  margin-bottom: 25px;
+}
+.main2-left-bottom {
+  border: 1px solid #6cc6c4;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.main2-left-bottom h3 {
+  font-size: 16px;
+  padding: 15px;
+  font-weight: bold;
+  color: #fff;
+  background: -webkit-gradient(linear, left bottom, left top, from(#6cc6c4), to(#9ce3e1));
+  background: linear-gradient(to top, #6cc6c4, #9ce3e1);
+}
+.main2-left-bottom ul li {
+  font-size: 14px;
+  padding: 15px 25px;
+  font-weight: bold;
+  color: #595959;
+  margin: 0 15px;
+  border-bottom: 1px solid #6cc6c4;
+  background: url(images/bgListIcon01.png) no-repeat 5px center;
+}
+.main2-left-bottom ul li:nth-child(4) {
+  margin-bottom: 25px;
+}
+.main2-right {
+  width: 70%;
+  margin-left: 20px;
+}
+.main2-right-top p {
+  font-size: 20px;
+  padding: 45px 15px 35px;
+  font-weight: bold;
+  color: #fff;
+  background: -webkit-gradient(linear, left bottom, left top, from(#6cc6c4), to(#9ce3e1));
+  background: linear-gradient(to top, #6cc6c4, #9ce3e1);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.main2-right-bottom {
+  background-color: #fff;
+  color: #515151;
+  margin-bottom: 25px;
+}
+.main2-right-bottom h4 {
+  padding: 36px 5px 20px;
+  margin: 0 23px;
+  border-bottom: 3px solid #6cc6c4;
+  font-weight: bold;
+}
+.main2-right-bottom h5 {
+  font-size: 15px;
+}
+.main2-right-bottom-info {
+  margin: 13px 30px 0;
+  padding-bottom: 50px;
+}
+.main2-right-bottom-info .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: 1px solid #ccc;
+}
+.main2-right-bottom-info .info .day {
+  font-size: 13px;
+  width: 20%;
+  line-height: 23px;
+  padding-top: 15px;
+}
+.main2-right-bottom-info .info .txt {
+  font-size: 13px;
+  width: 80%;
+  margin-left: 32px;
+  line-height: 20px;
+  padding: 13px 0;
+}
+
 /*styleScss*/
 *,
 *::before,

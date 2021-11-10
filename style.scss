@@ -1,9 +1,11 @@
 /*styleScss*/
-@use "styleScss/headerTop";
-@use "styleScss/headerMenu";
+@use "commonScss/headerTop";
+@use "commonScss/headerMenu";
 @use "styleScss/main";
-@use "styleScss/underMenu";
-@use "styleScss/footer";
+@use "commonScss/underMenu";
+@use "commonScss/footer";
+@use "commonScss/breadcrumb";
+@use "styleScss/main2";
 
 *,
 *::before,
