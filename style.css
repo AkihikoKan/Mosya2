@@ -188,7 +188,6 @@
 .under-menu {
   background-color: #6cc6c4;
   border-radius: 5px;
-  margin-bottom: 20px;
 }
 .under-menu ul {
   display: -webkit-box;
@@ -225,7 +224,7 @@ footer .bottom {
   color: #515151;
   font-size: 12px;
   text-align: center;
-  padding: 17px 0 20px;
+  padding: 17px 0 23px;
 }
 
 /*パンくずリストの部分*/
@@ -329,7 +328,7 @@ footer .bottom {
 }
 .main2-right-bottom h4 {
   padding: 36px 5px 20px;
-  margin: 0 23px;
+  margin: 0 22px;
   border-bottom: 3px solid #6cc6c4;
   font-weight: bold;
 }
@@ -339,10 +338,35 @@ footer .bottom {
   margin: 50px 30px 0;
   font-weight: bold;
 }
+.main2-right-bottom .subtext-title-top {
+  font-size: 15px;
+  color: #6cc6c4;
+  margin: 20px 23px 25px;
+  padding-left: 5px;
+  font-weight: bold;
+}
+.main2-right-bottom .subtext-title {
+  font-size: 15px;
+  color: #6cc6c4;
+  margin: 25px 23px;
+  padding-left: 5px;
+  font-weight: bold;
+}
 .main2-right-bottom p {
   font-size: 13px;
   line-height: 23px;
   margin: 13px 30px 15px;
+}
+.main2-right-bottom .main2-right-bottom-text {
+  font-size: 13px;
+  line-height: 23px;
+  margin: 13px 22px 15px;
+}
+.main2-right-bottom .main2-right-bottom-text-end {
+  font-size: 13px;
+  line-height: 23px;
+  margin: 13px 22px 0;
+  padding-bottom: 34px;
 }
 .main2-right-bottom .table {
   margin: 20px 23px 27px;

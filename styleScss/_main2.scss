@@ -92,7 +92,7 @@
           margin-bottom: 25px;
           h4{
               padding: 36px 5px 20px;
-              margin: 0 23px;
+              margin: 0 22px;
               border-bottom: 3px solid #6cc6c4;
               font-weight: bold;
           }
@@ -102,12 +102,38 @@
               margin: 50px 30px 0;
               font-weight: bold;
           }
+          .subtext-title-top{
+            font-size: 15px;
+            color: #6cc6c4;
+            margin: 20px 23px 25px;
+            padding-left: 5px;
+            font-weight: bold;
+          }
+          .subtext-title{
+            font-size: 15px;
+            color: #6cc6c4;
+            margin: 25px 23px;
+            padding-left: 5px;
+            font-weight: bold;
+          }
+
           p{
               font-size: 13px;
               line-height: 23px;
               margin: 13px 30px 15px;
-
             }
+          .main2-right-bottom-text{
+              font-size: 13px;
+              line-height: 23px;
+              margin: 13px 22px 15px;
+            }
+          .main2-right-bottom-text-end{
+              font-size: 13px;
+              line-height: 23px;
+              margin: 13px 22px 0;
+              padding-bottom: 34px;
+            }
+
           .table{
               margin: 20px 23px 27px;
               .list-day{
