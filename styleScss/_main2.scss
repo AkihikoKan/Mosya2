@@ -215,8 +215,42 @@
             p span{
                 font-weight: bold;
             }
+          }
+          //staff紹介
+          .staff-info{
+            display: flex;
+            margin: 0 22px;
+            &-left{
+              margin: 15px 20px 25px 0;
+              &-bottom{
+                font-size: 13px;
+                margin-top: 20px;
+                color: #fff;
+                background-color: #6cc6c4;
+                border-radius: 2px;
+                text-align: center;
+                padding: 5px 0;
+              }
+            }
+            &-right{
+              margin-top: 15px;
+              &-top{
+                margin: 20px 0;
+                color: #6cc6c4;
+                font-size: 15px;
+                font-weight: bold;
+              }
+              &-bottom{
+                li{
+                  font-size: 13px;
+                  line-height: 23px;
+                }
+              }
+            }
+          }
+          .staff-info2{
+            margin: 15px 22px 0;
 
-
-        }
-    }
+          }
+      }
 }

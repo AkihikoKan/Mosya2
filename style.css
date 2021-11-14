@@ -456,6 +456,40 @@ footer .bottom {
 .main2-right-bottom p span {
   font-weight: bold;
 }
+.main2-right .staff-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 22px;
+}
+.main2-right .staff-info-left {
+  margin: 15px 20px 25px 0;
+}
+.main2-right .staff-info-left-bottom {
+  font-size: 13px;
+  margin-top: 20px;
+  color: #fff;
+  background-color: #6cc6c4;
+  border-radius: 2px;
+  text-align: center;
+  padding: 5px 0;
+}
+.main2-right .staff-info-right {
+  margin-top: 15px;
+}
+.main2-right .staff-info-right-top {
+  margin: 20px 0;
+  color: #6cc6c4;
+  font-size: 15px;
+  font-weight: bold;
+}
+.main2-right .staff-info-right-bottom li {
+  font-size: 13px;
+  line-height: 23px;
+}
+.main2-right .staff-info2 {
+  margin: 15px 22px 0;
+}
 
 /*styleScss*/
 *,
