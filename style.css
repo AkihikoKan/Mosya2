@@ -490,6 +490,39 @@ footer .bottom {
 .main2-right .staff-info2 {
   margin: 15px 22px 0;
 }
+.main2-right .access {
+  margin: 0 22px;
+}
+.main2-right .access-map {
+  margin: 15px auto 30px;
+}
+.main2-right .borderline {
+  margin: 0 22px;
+  border-bottom: 3px solid #6cc6c4;
+}
+.main2-right .access-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 22px;
+}
+.main2-right .access-info-left {
+  margin: 15px 20px 25px 0;
+}
+.main2-right .access-info-right {
+  margin-top: 15px;
+}
+.main2-right .access-info-right-top {
+  margin: 20px 0;
+  color: #6cc6c4;
+  font-size: 15px;
+  font-weight: bold;
+}
+.main2-right .access-info-right-bottom-text {
+  font-size: 13px;
+  line-height: 23px;
+  margin: 0;
+}
 
 /*styleScss*/
 *,
