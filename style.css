@@ -271,6 +271,22 @@
     margin-bottom: 20px;
   }
 }
+@media screen and (max-width: 600px) {
+  .main-right-bottom-info .info {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .main-right-bottom-info .info .day {
+    width: 100%;
+    padding-top: 10px;
+  }
+  .main-right-bottom-info .info .txt {
+    width: 90%;
+    margin-left: 10px;
+  }
+}
 /*アンダーメニューの部分*/
 .under-menu {
   background-color: #6cc6c4;
@@ -332,6 +348,11 @@ footer .bottom {
 @media screen and (max-width: 920px) {
   footer .top {
     text-align: center;
+  }
+}
+@media screen and (max-width: 600px) {
+  footer .bottom {
+    font-size: 10px;
   }
 }
 /*パンくずリストの部分*/
@@ -425,74 +446,6 @@ footer .bottom {
 .main2-right {
   width: 70%;
   margin-left: 20px;
-  /*.staff-info{
-    display: flex;
-    margin: 0 22px;
-    &-left{
-      margin: 15px 20px 25px 0;
-      &-bottom{
-        font-size: 13px;
-        margin-top: 20px;
-        color: #fff;
-        background-color: #6cc6c4;
-        border-radius: 2px;
-        text-align: center;
-        padding: 5px 0;
-      }
-    }
-    &-right{
-      margin-top: 15px;
-      &-top{
-        margin: 20px 0;
-        color: #6cc6c4;
-        font-size: 15px;
-        font-weight: bold;
-      }
-      &-bottom{
-        li{
-          font-size: 13px;
-          line-height: 23px;
-        }
-      }
-    }
-  }
-  .staff-info2{
-    margin: 15px 22px 0;
-
-  }*/
-  /*.access{
-    margin: 0 22px;
-    &-map{
-      margin: 15px auto 30px;
-    }
-  }
-  .borderline{
-    margin: 0 22px;
-    border-bottom: 3px solid #6cc6c4;
-  }
-  .access-info{
-    display: flex;
-    margin: 0 22px;
-    &-left{
-      margin: 15px 20px 25px 0;
-    }
-    &-right{
-      margin-top: 15px;
-      &-top{
-        margin: 20px 0;
-        color: #6cc6c4;
-        font-size: 15px;
-        font-weight: bold;
-      }
-      &-bottom{
-        &-text{
-          font-size: 13px;
-          line-height: 23px;
-          margin: 0;
-        }
-      }
-    }
-  }*/
 }
 .main2-right-top p {
   font-size: 20px;
@@ -508,87 +461,6 @@ footer .bottom {
   background-color: #fff;
   color: #515151;
   margin-bottom: 25px;
-  /*.table{
-      margin: 20px 23px 27px;
-      .list-day{
-          display: flex;
-          background-color: #d1d1d1;
-          ul{
-              border-top:  1px solid #515151;
-              border-left:  1px solid #515151;
-              border-right:  1px solid #515151;
-          }
-      }
-      .list-am{
-          display: flex;
-          ul{
-            border:  1px solid #515151;
-            }
-
-        }
-      .list-pm{
-          display: flex;
-          ul{
-            border-bottom:  1px solid #515151;
-            border-left:  1px solid #515151;
-            border-right:  1px solid #515151;
-          }
-        }
-      li{
-          height: 45px;
-          width: 14%;
-          font-size: 13px;
-          color: #515151;
-          //border: 1px solid #515151;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-
-        }
-      li:nth-of-type(1){
-          width: 16%;
-        }
-      li:nth-of-type(4){
-          width: 28%;
-        }
-
-        //表のボーダー
-      .list-am li:nth-of-type(odd){
-        border:  1px solid #515151;
-        }
-      .list-am li:nth-of-type(even){
-        border-top:  1px solid #515151;
-        border-bottom:  1px solid #515151;
-        }
-      .list-am li:nth-of-type(6){
-        border-right:  1px solid #515151;
-        }
-      .list-day li:nth-of-type(odd){
-        border-top:  1px solid #515151;
-        border-left:  1px solid #515151;
-        border-right:  1px solid #515151;
-        }
-      .list-day li:nth-of-type(even){
-        border-top:  1px solid #515151;
-        }
-      .list-day li:nth-of-type(6){
-        border-right:  1px solid #515151;
-        }
-      .list-pm li:nth-of-type(odd){
-        border-bottom:  1px solid #515151;
-        border-left:  1px solid #515151;
-        border-right:  1px solid #515151;
-        }
-      .list-pm li:nth-of-type(even){
-        border-bottom:  1px solid #515151;
-        }
-      .list-pm li:nth-of-type(6){
-        border-right:  1px solid #515151;
-        }
-    }
-    p span{
-        font-weight: bold;
-    }*/
 }
 .main2-right-bottom h4 {
   padding: 36px 5px 20px;
@@ -654,10 +526,15 @@ footer .bottom {
   }
   .main2-right-top {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 0;
   }
   .main2-right-top p {
     padding: 20px 15px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .main2-right-bottom {
+    padding-bottom: 5px;
   }
 }
 .main2-right-bottom .table {
@@ -826,11 +703,48 @@ footer .bottom {
     padding-left: 100px;
   }
 }
+@media screen and (max-width: 600px) {
+  .main2-right-bottom .staff-info {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .main2-right-bottom .staff-info-left {
+    text-align: center;
+    margin: 15px 0 0;
+  }
+  .main2-right-bottom .staff-info-left-bottom {
+    width: 80%;
+    margin: 15px auto 0;
+  }
+  .main2-right-bottom .staff-info-right {
+    margin-top: 10px;
+  }
+  .main2-right-bottom .staff-info-right-bottom {
+    padding-left: 10px;
+  }
+  .main2-right-bottom .subtext-title-staff {
+    font-size: 18px;
+    margin: 30px 23px 15px;
+    padding-left: 0;
+  }
+  .main2-right-bottom-text-staff {
+    padding-left: 0;
+  }
+  .main2-right-bottom-text-end-staff {
+    padding-left: 0;
+    padding-bottom: 10px;
+  }
+}
 .access {
   margin: 0 22px;
 }
 .access-map {
   margin: 15px auto 30px;
+}
+.access-map-mini {
+  display: none;
 }
 
 .borderline {
@@ -871,6 +785,43 @@ footer .bottom {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+}
+@media screen and (max-width: 600px) {
+  .access {
+    margin: 0;
+  }
+  .access-map {
+    display: none;
+  }
+  .access-map-mini {
+    display: block;
+    margin: 20px auto;
+  }
+
+  .access-info {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .access-info-left {
+    text-align: center;
+    margin: 15px 0 0;
+  }
+  .access-info-left-bottom {
+    width: 80%;
+    margin: 15px auto 0;
+  }
+  .access-info-right {
+    margin-top: 10px;
+  }
+  .access-info-right-bottom {
+    padding-left: 5px;
+  }
+  .access-info-right-bottom p {
+    margin: 13px 0;
+    line-height: 20px;
   }
 }
 nav {

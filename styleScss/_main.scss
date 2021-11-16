@@ -145,3 +145,25 @@
         }
     }
 }
+
+@media screen and (max-width:600px) {
+    .main{
+        &-right{
+            &-bottom{
+                &-info{
+                    .info{
+                        flex-direction: column;
+                        .day{
+                            width: 100%;
+                            padding-top: 10px;
+                        }
+                        .txt{
+                            width: 90%;
+                            margin-left: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -29,3 +29,10 @@ footer{
         }
     }
 }
+@media screen and (max-width:600px) {
+    footer{
+        .bottom{
+            font-size: 10px;
+        }
+    }
+}

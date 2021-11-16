@@ -6,6 +6,9 @@
   &-map{
     margin: 15px auto 30px;
   }
+  &-map-mini{
+    display: none;
+  }
 }
 .borderline{
   margin: 0 22px;
@@ -44,5 +47,40 @@
   }
   .access-info{
     justify-content: center;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .access{
+    margin: 0;
+    &-map{
+      display: none;
+    }
+    &-map-mini{
+      display: block;
+      margin: 20px auto;
+    }
+  }
+  .access-info{
+    flex-direction: column;
+    &-left{
+      text-align: center;
+      margin: 15px 0 0;
+      &-bottom{
+        width: 80%;
+        margin: 15px auto 0;
+      }
+    }
+    &-right{
+      margin-top: 10px;
+      &-bottom{
+        padding-left: 5px;
+        p {
+          margin: 13px 0;
+          line-height: 20px;
+        }
+      }
+    }
+
   }
 }
