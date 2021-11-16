@@ -198,6 +198,9 @@
 .main-right-top {
   margin-bottom: 10px;
 }
+.main-right-top img {
+  width: 100%;
+}
 .main-right-bottom {
   background-color: #fff;
   color: #515151;
@@ -774,6 +777,9 @@ footer .bottom {
 }
 .main2-right-bottom .staff-info2 {
   margin: 15px 22px 0;
+}
+.main2-right-bottom .staff-info2 img {
+  width: 100%;
 }
 .main2-right-bottom-text-end-staff {
   font-size: 13px;
