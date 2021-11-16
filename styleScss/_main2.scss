@@ -1,4 +1,6 @@
 /*メイン2の部分*/
+//グラデーションのコード　有り
+
 
 .main2{
   display: flex;
@@ -134,7 +136,7 @@
               padding-bottom: 34px;
             }
 
-          .table{
+          /*.table{
               margin: 20px 23px 27px;
               .list-day{
                   display: flex;
@@ -214,10 +216,10 @@
             }
             p span{
                 font-weight: bold;
-            }
+            }*/
           }
           //staff紹介
-          .staff-info{
+          /*.staff-info{
             display: flex;
             margin: 0 22px;
             &-left{
@@ -251,9 +253,9 @@
           .staff-info2{
             margin: 15px 22px 0;
 
-          }
+          }*/
           //アクセス
-          .access{
+          /*.access{
             margin: 0 22px;
             &-map{
               margin: 15px auto 30px;
@@ -285,7 +287,9 @@
                 }
               }
             }
-          }
+          }*/
+
+
 
       }
 }

@@ -1,0 +1,36 @@
+//アクセスページ　アクセスマップ、デンタルクリニックの部分
+
+          //アクセス
+          .access{
+            margin: 0 22px;
+            &-map{
+              margin: 15px auto 30px;
+            }
+          }
+          .borderline{
+            margin: 0 22px;
+            border-bottom: 3px solid #6cc6c4;
+          }
+          .access-info{
+            display: flex;
+            margin: 0 22px;
+            &-left{
+              margin: 15px 20px 25px 0;
+            }
+            &-right{
+              margin-top: 15px;
+              &-top{
+                margin: 20px 0;
+                color: #6cc6c4;
+                font-size: 15px;
+                font-weight: bold;
+              }
+              &-bottom{
+                &-text{
+                  font-size: 13px;
+                  line-height: 23px;
+                  margin: 0;
+                }
+              }
+            }
+          }

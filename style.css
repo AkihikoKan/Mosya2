@@ -310,6 +310,74 @@ footer .bottom {
 .main2-right {
   width: 70%;
   margin-left: 20px;
+  /*.staff-info{
+    display: flex;
+    margin: 0 22px;
+    &-left{
+      margin: 15px 20px 25px 0;
+      &-bottom{
+        font-size: 13px;
+        margin-top: 20px;
+        color: #fff;
+        background-color: #6cc6c4;
+        border-radius: 2px;
+        text-align: center;
+        padding: 5px 0;
+      }
+    }
+    &-right{
+      margin-top: 15px;
+      &-top{
+        margin: 20px 0;
+        color: #6cc6c4;
+        font-size: 15px;
+        font-weight: bold;
+      }
+      &-bottom{
+        li{
+          font-size: 13px;
+          line-height: 23px;
+        }
+      }
+    }
+  }
+  .staff-info2{
+    margin: 15px 22px 0;
+
+  }*/
+  /*.access{
+    margin: 0 22px;
+    &-map{
+      margin: 15px auto 30px;
+    }
+  }
+  .borderline{
+    margin: 0 22px;
+    border-bottom: 3px solid #6cc6c4;
+  }
+  .access-info{
+    display: flex;
+    margin: 0 22px;
+    &-left{
+      margin: 15px 20px 25px 0;
+    }
+    &-right{
+      margin-top: 15px;
+      &-top{
+        margin: 20px 0;
+        color: #6cc6c4;
+        font-size: 15px;
+        font-weight: bold;
+      }
+      &-bottom{
+        &-text{
+          font-size: 13px;
+          line-height: 23px;
+          margin: 0;
+        }
+      }
+    }
+  }*/
 }
 .main2-right-top p {
   font-size: 20px;
@@ -325,6 +393,87 @@ footer .bottom {
   background-color: #fff;
   color: #515151;
   margin-bottom: 25px;
+  /*.table{
+      margin: 20px 23px 27px;
+      .list-day{
+          display: flex;
+          background-color: #d1d1d1;
+          ul{
+              border-top:  1px solid #515151;
+              border-left:  1px solid #515151;
+              border-right:  1px solid #515151;
+          }
+      }
+      .list-am{
+          display: flex;
+          ul{
+            border:  1px solid #515151;
+            }
+
+        }
+      .list-pm{
+          display: flex;
+          ul{
+            border-bottom:  1px solid #515151;
+            border-left:  1px solid #515151;
+            border-right:  1px solid #515151;
+          }
+        }
+      li{
+          height: 45px;
+          width: 14%;
+          font-size: 13px;
+          color: #515151;
+          //border: 1px solid #515151;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+        }
+      li:nth-of-type(1){
+          width: 16%;
+        }
+      li:nth-of-type(4){
+          width: 28%;
+        }
+
+        //表のボーダー
+      .list-am li:nth-of-type(odd){
+        border:  1px solid #515151;
+        }
+      .list-am li:nth-of-type(even){
+        border-top:  1px solid #515151;
+        border-bottom:  1px solid #515151;
+        }
+      .list-am li:nth-of-type(6){
+        border-right:  1px solid #515151;
+        }
+      .list-day li:nth-of-type(odd){
+        border-top:  1px solid #515151;
+        border-left:  1px solid #515151;
+        border-right:  1px solid #515151;
+        }
+      .list-day li:nth-of-type(even){
+        border-top:  1px solid #515151;
+        }
+      .list-day li:nth-of-type(6){
+        border-right:  1px solid #515151;
+        }
+      .list-pm li:nth-of-type(odd){
+        border-bottom:  1px solid #515151;
+        border-left:  1px solid #515151;
+        border-right:  1px solid #515151;
+        }
+      .list-pm li:nth-of-type(even){
+        border-bottom:  1px solid #515151;
+        }
+      .list-pm li:nth-of-type(6){
+        border-right:  1px solid #515151;
+        }
+    }
+    p span{
+        font-weight: bold;
+    }*/
 }
 .main2-right-bottom h4 {
   padding: 36px 5px 20px;
@@ -368,6 +517,7 @@ footer .bottom {
   margin: 13px 22px 0;
   padding-bottom: 34px;
 }
+
 .main2-right-bottom .table {
   margin: 20px 23px 27px;
 }
@@ -456,16 +606,17 @@ footer .bottom {
 .main2-right-bottom p span {
   font-weight: bold;
 }
-.main2-right .staff-info {
+
+.main2-right-bottom .staff-info {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin: 0 22px;
 }
-.main2-right .staff-info-left {
+.main2-right-bottom .staff-info-left {
   margin: 15px 20px 25px 0;
 }
-.main2-right .staff-info-left-bottom {
+.main2-right-bottom .staff-info-left-bottom {
   font-size: 13px;
   margin-top: 20px;
   color: #fff;
@@ -474,51 +625,54 @@ footer .bottom {
   text-align: center;
   padding: 5px 0;
 }
-.main2-right .staff-info-right {
+.main2-right-bottom .staff-info-right {
   margin-top: 15px;
 }
-.main2-right .staff-info-right-top {
+.main2-right-bottom .staff-info-right-top {
   margin: 20px 0;
   color: #6cc6c4;
   font-size: 15px;
   font-weight: bold;
 }
-.main2-right .staff-info-right-bottom li {
+.main2-right-bottom .staff-info-right-bottom li {
   font-size: 13px;
   line-height: 23px;
 }
-.main2-right .staff-info2 {
+.main2-right-bottom .staff-info2 {
   margin: 15px 22px 0;
 }
-.main2-right .access {
+
+.access {
   margin: 0 22px;
 }
-.main2-right .access-map {
+.access-map {
   margin: 15px auto 30px;
 }
-.main2-right .borderline {
+
+.borderline {
   margin: 0 22px;
   border-bottom: 3px solid #6cc6c4;
 }
-.main2-right .access-info {
+
+.access-info {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin: 0 22px;
 }
-.main2-right .access-info-left {
+.access-info-left {
   margin: 15px 20px 25px 0;
 }
-.main2-right .access-info-right {
+.access-info-right {
   margin-top: 15px;
 }
-.main2-right .access-info-right-top {
+.access-info-right-top {
   margin: 20px 0;
   color: #6cc6c4;
   font-size: 15px;
   font-weight: bold;
 }
-.main2-right .access-info-right-bottom-text {
+.access-info-right-bottom-text {
   font-size: 13px;
   line-height: 23px;
   margin: 0;
