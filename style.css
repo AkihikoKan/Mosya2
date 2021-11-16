@@ -115,6 +115,9 @@
   border-bottom: 1px solid #6cc6c4;
   background: url(images/bgListIcon01.png) no-repeat 5px center;
 }
+.main-left-top ul li a:hover {
+  color: #6cc6c4;
+}
 .main-left-top ul li:nth-child(4) {
   margin-bottom: 25px;
 }
@@ -139,6 +142,9 @@
   margin: 0 15px;
   border-bottom: 1px solid #6cc6c4;
   background: url(images/bgListIcon01.png) no-repeat 5px center;
+}
+.main-left-bottom ul li a:hover {
+  color: #6cc6c4;
 }
 .main-left-bottom ul li:nth-child(4) {
   margin-bottom: 25px;
@@ -279,6 +285,9 @@ footer .bottom {
   border-bottom: 1px solid #6cc6c4;
   background: url(images/bgListIcon01.png) no-repeat 5px center;
 }
+.main2-left-top ul li a:hover {
+  color: #6cc6c4;
+}
 .main2-left-top ul li:nth-child(4) {
   margin-bottom: 25px;
 }
@@ -303,6 +312,9 @@ footer .bottom {
   margin: 0 15px;
   border-bottom: 1px solid #6cc6c4;
   background: url(images/bgListIcon01.png) no-repeat 5px center;
+}
+.main2-left-bottom ul li a:hover {
+  color: #6cc6c4;
 }
 .main2-left-bottom ul li:nth-child(4) {
   margin-bottom: 25px;
