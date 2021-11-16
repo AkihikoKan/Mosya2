@@ -56,3 +56,10 @@
     }
     
 }
+@media screen and (max-width:600px) {
+    .headerTop{
+        margin-top: 65px;
+        padding-bottom: 20px;
+        border-bottom: 10px solid #6cc6c4;
+    }
+}

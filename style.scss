@@ -9,6 +9,7 @@
 @use "styleScss/clinicTable";
 @use "styleScss/staffInfo";
 @use "styleScss/access";
+@use "commonScss/HamburgerMenu";
 
 *,
 *::before,
@@ -21,6 +22,11 @@ body {
     color: #333;
     border-top: 8px solid #6cc6c4;
     background-color: #f6f6f6;
+}
+@media screen and (max-width:600px){
+    body{
+        border: 0;
+    }
 }
 
 a {
