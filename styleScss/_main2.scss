@@ -13,6 +13,7 @@
           border: 1px solid #6cc6c4;
           border-top-left-radius: 5px;
           border-top-right-radius: 5px;
+          background-color: #fff;
           h3{
               font-size: 16px;
               padding: 15px;
@@ -46,6 +47,7 @@
           border: 1px solid #6cc6c4;
           border-top-left-radius: 5px;
           border-top-right-radius: 5px;
+          background-color: #fff;
           h3{
               font-size: 16px;
               padding: 15px;
@@ -297,5 +299,30 @@
 
 
 
+      }      
+}
+
+@media screen and (max-width:920px) {
+  .main2{
+      flex-direction: column-reverse;
+      &-left{
+          width: 100%;
+          padding: 0 20px;
+          &-bottom{
+              margin-bottom: 30px;
+          }
       }
+      &-right{
+          width: 100%;
+          padding: 0 20px;
+          margin-left: 0;
+          &-top{
+              text-align: center;
+              margin-bottom: 20px;
+              p{
+                padding: 20px 15px;
+              }
+          }
+      }
+  }
 }

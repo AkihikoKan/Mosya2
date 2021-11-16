@@ -35,3 +35,24 @@
 
   }
 }
+@media screen and (max-width:920px) {
+    .headerTop{
+        display: block;
+        &-left{
+            text-align: center;
+            margin-top: 15px;
+        }
+        &-right{
+            &-top{
+                margin: 0;
+            }
+            .top-tel{
+                margin: 15px 0 10px;
+            }
+            &-buttom{
+                margin: 0 auto 20px;
+            }
+        }
+    }
+    
+}

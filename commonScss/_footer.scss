@@ -21,3 +21,11 @@ footer{
       padding: 17px 0 23px;
   }
 }
+
+@media screen and (max-width:920px) {
+    footer{
+        .top{
+            text-align: center;
+        }
+    }
+}

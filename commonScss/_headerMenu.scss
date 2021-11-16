@@ -41,3 +41,28 @@
       }
   }
 }
+
+@media screen and(max-width:920px){
+    .headerMenu{
+        &-items{
+            border: 0px;
+            border-radius: 0px;
+            background: none;
+            ul{
+                flex-wrap: wrap;
+                li{
+                    width: 50%;
+                    border: 1px solid #6cc6c4;
+                    border-radius: 5px;
+                    background: -moz-linear-gradient(bottom,#6cc6c4,#9ce3e1);
+                    background: -webkit-linear-gradient(bottom,#6cc6c4,#9ce3e1);
+                    background: linear-gradient(to top,#6cc6c4,#9ce3e1);
+                    padding: 10px 0;
+                }
+                li:nth-of-type(1){
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
