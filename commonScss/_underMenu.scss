@@ -3,7 +3,6 @@
 .under-menu{
   background-color: #6cc6c4;
   border-radius: 5px;
-  margin-bottom: 20px;
   ul{
       display: flex;
       li{
@@ -20,4 +19,18 @@
           border-bottom: 1px solid #fff;
       }
   }
+}
+
+@media screen and (max-width:920px) {
+    .under-menu{
+        margin: 0 20px;
+        ul{
+            justify-content: space-evenly;
+        }
+    }
+}
+@media screen and (max-width:600px) {
+    .under-menu{
+        display: none;
+    }
 }

@@ -1,0 +1,86 @@
+//アクセスページ　アクセスマップ、デンタルクリニックの部分
+
+//アクセス
+.access{
+  margin: 0 22px;
+  &-map{
+    margin: 15px auto 30px;
+  }
+  &-map-mini{
+    display: none;
+  }
+}
+.borderline{
+  margin: 0 22px;
+  border-bottom: 3px solid #6cc6c4;
+}
+.access-info{
+  display: flex;
+  margin: 0 22px;
+  &-left{
+    margin: 15px 20px 25px 0;
+  }
+  &-right{
+    margin-top: 15px;
+    &-top{
+      margin: 20px 0;
+      color: #6cc6c4;
+      font-size: 15px;
+      font-weight: bold;
+    }
+    &-bottom{
+      &-text{
+        font-size: 13px;
+        line-height: 23px;
+        margin: 0;
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width:920px) {
+  .access{
+    &-map{
+      text-align: center;
+    }
+  }
+  .access-info{
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .access{
+    margin: 0;
+    &-map{
+      display: none;
+    }
+    &-map-mini{
+      display: block;
+      margin: 20px auto;
+    }
+  }
+  .access-info{
+    flex-direction: column;
+    &-left{
+      text-align: center;
+      margin: 15px 0 0;
+      &-bottom{
+        width: 80%;
+        margin: 15px auto 0;
+      }
+    }
+    &-right{
+      margin-top: 10px;
+      &-bottom{
+        padding-left: 5px;
+        p {
+          margin: 13px 0;
+          line-height: 20px;
+        }
+      }
+    }
+
+  }
+}

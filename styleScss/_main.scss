@@ -1,4 +1,5 @@
 /*メインの部分*/
+//グラデーションのコード　有り
 
 .main{
   display: flex;
@@ -11,6 +12,7 @@
           border: 1px solid #6cc6c4;
           border-top-left-radius: 5px;
           border-top-right-radius: 5px;
+          background-color: #fff;
           h3{
               font-size: 16px;
               padding: 15px;
@@ -30,6 +32,10 @@
                   margin: 0 15px;
                   border-bottom: 1px solid #6cc6c4;
                   background: url(images/bgListIcon01.png) no-repeat 5px center;
+
+                  a:hover{
+                    color: #6cc6c4;
+                  }
               }
               li:nth-child(4){
                   margin-bottom: 25px;
@@ -41,6 +47,7 @@
           border: 1px solid #6cc6c4;
           border-top-left-radius: 5px;
           border-top-right-radius: 5px;
+          background-color: #fff;
           h3{
               font-size: 16px;
               padding: 15px;
@@ -60,6 +67,10 @@
                   margin: 0 15px;
                   border-bottom: 1px solid #6cc6c4;
                   background: url(images/bgListIcon01.png) no-repeat 5px center;
+
+                  a:hover{
+                      color: #6cc6c4;
+                  }
               }
               li:nth-child(4){
                   margin-bottom: 25px;
@@ -74,6 +85,9 @@
       margin-left: 20px;
       &-top{
           margin-bottom: 10px;
+          img{
+            width: 100%;
+          }
       }
       &-bottom{
           background-color: #fff;
@@ -107,4 +121,49 @@
           }
       }
   }
+}
+
+
+@media screen and (max-width:920px) {
+    .main{
+        flex-direction: column-reverse;
+        &-left{
+            width: 100%;
+            padding: 0 20px;
+            &-bottom{
+                margin-bottom: 30px;
+            }
+        }
+        &-right{
+            width: 100%;
+            padding: 0 20px;
+            margin-left: 0;
+            &-top{
+                text-align: center;
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:600px) {
+    .main{
+        &-right{
+            &-bottom{
+                &-info{
+                    .info{
+                        flex-direction: column;
+                        .day{
+                            width: 100%;
+                            padding-top: 10px;
+                        }
+                        .txt{
+                            width: 90%;
+                            margin-left: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }

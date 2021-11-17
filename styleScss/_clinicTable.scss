@@ -1,0 +1,88 @@
+//医院紹介ページ　休診日・診療案内部分
+//表下のPタグ部分は「main2」のコードで指定
+
+.main2-right{
+  &-bottom{
+    .table{
+      margin: 20px 23px 27px;
+      .list-day{
+          display: flex;
+          background-color: #d1d1d1;
+          ul{
+              border-top:  1px solid #515151;
+              border-left:  1px solid #515151;
+              border-right:  1px solid #515151;
+          }
+      }
+      .list-am{
+          display: flex;
+          ul{
+            border:  1px solid #515151;
+            }
+            
+        }
+      .list-pm{
+          display: flex;
+          ul{
+            border-bottom:  1px solid #515151;
+            border-left:  1px solid #515151;
+            border-right:  1px solid #515151;
+          }
+        }
+      li{
+          height: 45px;
+          width: 14%;
+          font-size: 13px;
+          color: #515151;
+          //border: 1px solid #515151;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+        }
+      li:nth-of-type(1){
+          width: 16%;
+        }
+      li:nth-of-type(4){
+          width: 28%;
+        }
+
+        //表のボーダー
+      .list-am li:nth-of-type(odd){
+        border:  1px solid #515151;
+        }
+      .list-am li:nth-of-type(even){
+        border-top:  1px solid #515151;
+        border-bottom:  1px solid #515151;
+        }
+      .list-am li:nth-of-type(6){
+        border-right:  1px solid #515151;
+        }
+      .list-day li:nth-of-type(odd){
+        border-top:  1px solid #515151;
+        border-left:  1px solid #515151;
+        border-right:  1px solid #515151;
+        }
+      .list-day li:nth-of-type(even){
+        border-top:  1px solid #515151;
+        }
+      .list-day li:nth-of-type(6){
+        border-right:  1px solid #515151;
+        }
+      .list-pm li:nth-of-type(odd){
+        border-bottom:  1px solid #515151;
+        border-left:  1px solid #515151;
+        border-right:  1px solid #515151;
+        }
+      .list-pm li:nth-of-type(even){
+        border-bottom:  1px solid #515151;
+        }
+      .list-pm li:nth-of-type(6){
+        border-right:  1px solid #515151;
+        }
+    }
+    p span{
+        font-weight: bold;
+    }
+  }
+}
